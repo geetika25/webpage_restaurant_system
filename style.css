@@ -1,9 +1,10 @@
-.
+*
 {
 	margin:0;
 	padding: 0;
 }
 body{
+	height: 100vh;
 	font-family: tahoma;
 }
 .row{
@@ -11,27 +12,19 @@ body{
 	margin:0 auto;
 }
 
-.hero{
+#hero{
 	position: absolute;
-	width: 1140px;
+	width: 100%;
 	top:30%;
-	left:42%;
+	left:50%;
 	transform: translate(-50%,-50%);
-	color:black;
+	z-index:2;
 
 
 }
-body
-{
-	background-color:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7);
-	height: 50vh;
-	background-position: center;
-	background-size: cover;
 
-
-}
 h1{
-	color: white;
+	color:black;
 }
 .main-nav{
 	float:right;
@@ -43,5 +36,10 @@ margin-left:20px;
 }
 .main-nav li a{
 	color: white;
+}
+.class1{
+	background-color:black;
+	
+	z-index: -1;
 }
 
