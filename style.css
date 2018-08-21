@@ -47,3 +47,6 @@ margin-left:20px;
 nav{
 	position: fixed;
 }
+#ho:hover { 
+   background-color:white; 
+}
