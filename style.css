@@ -59,6 +59,10 @@ nav{
 .p{
 	padding-left: 100px;
 	padding-right: 100px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	margin-top: 50px;
+
+}
+.arrange{
+	text-align: justify;
 }
